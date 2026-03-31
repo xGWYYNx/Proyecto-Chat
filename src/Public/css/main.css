@@ -1,0 +1,39 @@
+body{
+    background: #d4fc79;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96e6a1, #d4fc79);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96e6a1, #d4fc79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+#contentWrap {
+    display: none;
+}
+
+.miMensaje{
+    color: orange;
+    padding:8px;
+    border-radius:10px;
+    margin:5px;
+    text-align:right;
+}
+
+.otrMessage{
+    color: aquamarine;
+    padding:8px;
+    border-radius:10px;
+    margin:5px;
+    text-align:left;
+}
+
+.color-primary {
+    color: orange; /* azul tipo Bootstrap */
+}
+
+.error {
+    color: red;
+}
+
+.whisper{
+    color: gray;
+    font-style: italic;
+}
